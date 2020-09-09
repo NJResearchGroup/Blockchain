@@ -12,7 +12,7 @@
 <br> c.
 ```from Crypto.Cipher import AES```
 ### 3.Installing rsa
-<br> 
+
 ```pip install rsa```
 
 ## Building private chain on geth client
@@ -32,15 +32,9 @@
 ```sudo add-apt-repository ppa:gophers/go sudo apt-get update sudo apt-get install golang-stable```
 
 ### 2.Install Geth
-<br>Cloning geth to local env
+<br> Cloning geth to local env
 ```$ git clone https://github.com/ethereum/go-ethereum```
 
-<br> 
-```
-$ sudo add-apt-repository ppa:git-core/ppa
-$ sudo apt-get update
-$ sudo apt-get install git)
-```
 <br> Install Go
 ```$ sudo apt-get install -y build-essential golang```
 
@@ -51,7 +45,7 @@ $ make geth
 ```
 
 ### 3.BUilding Private Chain
-<br> Starting Geth cLIENT（JavaScript Console）
+<br> Starting Geth Client（JavaScript Console）
 ```$ geth --datadir testNet --dev --rpc  console 2>> test.log```
 
 <br>Here –dev represents root model，--rpc represents local rpc portal is 8545，it will be useful for compiling truffle.js.
@@ -239,10 +233,14 @@ console.log(contract);
 "3df5b836aa19193ebc0c391a90f837ec00c173def06fea1ec662dc525dae4c15"
 ```
 
-<br> Finished!
+### Finished!
+
+##################################################################################################################################################################################################
 
 
-## 中文版
+
+
+## 中文版(Chinese Version)
 ## 加密算法实现
 <br> symmetric cryptography.py 文件基于Anaconda anaconda3-4.1.0 中Crypto.Cipher包里的AES方法进行对称加密
 <br> asymmetric cryptography.py 文件基于Anaconda anaconda3-4.1.0 中rsa包里的方法进行非对称加密
