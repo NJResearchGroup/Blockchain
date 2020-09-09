@@ -1,6 +1,5 @@
 # Blockchain Summer2018
 ## English Version:
-# Blockchain Summer2018
 ## Implementation of encryption algorithm
 <br> symmetric cryptography.py Conductiong AES method based on pakage Crypto.Cipher of Anaconda 3-4.1.0 for symmetric encryption
 <br> asymmetric cryptography.py The file is carrying out asymmetrically encryption based on the method in RSA package of Anaconda Anaconda 3-4.1.0
