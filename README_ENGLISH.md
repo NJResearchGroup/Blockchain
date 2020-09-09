@@ -15,7 +15,7 @@
 ```pip install rsa```
 
 ## Building private chain on geth client
-<br> [Solidity在线IDE](http://remix.ethereum.org/)
+<br> [Solidity Online IDE](http://remix.ethereum.org/)
 <br> msg_to_Tony.sol Using Solidity to impliment the intelligent contract of information transmission, taking Tony user as an example.
 <br> After the Solidity script is successfully compiled on remix, the compiled JS code is copied to the JavaScript console of Ethereum private chain on the geth client to run the arrangement of smart contracts.
 
